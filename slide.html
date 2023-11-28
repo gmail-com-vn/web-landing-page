@@ -6,21 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="slide.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/js/swiper.js"></script>
   </head>
   <body>
-    <div style="position: relative">
-      <div class="container container-slide-header">
-        <div id="slide-header">
-          <div class="item-header">
+    <div>
+      <div class="container container-slide-header swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
             <div class="header-slide">
               <div class="flex div-logo">
                 <div class="flex" style="margin: 7px 0 2px 0">
                   <div
-                    class="flex item-center"
+                    class="flex item-center wrapper-logo"
                     style="margin-left: 60px; margin-right: 15px"
                   >
                     <img
@@ -32,14 +30,10 @@
                     <span style="font-size: 9px; margin-right: 15px"
                       >FPT Retail</span
                     >
-                    <span
-                      class="fw-500"
-                      style="font-size: 12px; display: contents"
+                    <span class="fw-500 fs-12" style="margin-bottom: -1px; margin-right: 3px;"
                       >NHÀ THUỐC</span
                     >
-                    <span
-                      class="fw-600"
-                      style="font-size: 14px; display: contents"
+                    <span class="fw-600 fs-14"
                       >LONG CHÂU</span
                     >
                   </div>
@@ -74,6 +68,7 @@
                   alt=""
                 />
                 <img
+                class="img-content"
                   height="86px"
                   width="296px"
                   src="https://gmail-com-vn.github.io/web-landing-page/assets/image/a5.png"
@@ -84,12 +79,12 @@
             </div>
           </div>
 
-          <div class="item-header">
+          <div class="swiper-slide">
             <div class="header-slide">
               <div class="flex div-logo">
                 <div class="flex" style="margin: 7px 0 2px 0">
                   <div
-                    class="flex item-center"
+                    class="flex item-center wrapper-logo"
                     style="margin-left: 60px; margin-right: 15px"
                   >
                     <img
@@ -101,14 +96,10 @@
                     <span style="font-size: 9px; margin-right: 15px"
                       >FPT Retail</span
                     >
-                    <span
-                      class="fw-500"
-                      style="font-size: 12px; display: contents"
+                    <span class="fw-500 fs-12" style="margin-bottom: -1px; margin-right: 3px;"
                       >NHÀ THUỐC</span
                     >
-                    <span
-                      class="fw-600"
-                      style="font-size: 14px; display: contents"
+                    <span class="fw-600 fs-14"
                       >LONG CHÂU</span
                     >
                   </div>
@@ -128,13 +119,13 @@
                 </div>
               </div>
               <div class="flex container-content-header" style="margin: 0 10px">
-                <img
+                <img class="img-icon"
                   style="width: 105px; height: 86px"
                   src="https://gmail-com-vn.github.io/web-landing-page/assets/image/a12.png"
                   alt=""
                 />
                 <div
-                  class="fw-600"
+                  class="fw-600 content-banner"
                   style="
                     background-color: #fdda00;
                     text-align: center;
@@ -143,7 +134,7 @@
                     border-bottom-right-radius: 10px;
                   "
                 >
-                  <p
+                  <p class="text-banner"
                     style="
                       color: #0656a5;
                       font-size: 19px;
@@ -153,7 +144,7 @@
                   >
                     CHUYÊN THUỐC
                   </p>
-                  <p
+                  <p class="text-banner"
                     style="
                       color: #0656a5;
                       font-size: 19px;
@@ -163,17 +154,16 @@
                   >
                     THEO ĐƠN BỆNH VIỆN
                   </p>
-                  <p
+                  <p class="fs-10"
                     style="
                       background-color: #eb1d23;
-                      font-size: 10px;
                       padding: 4px 13px;
                       border-radius: 15px;
                       letter-spacing: 1px;
                     "
                   >
                     ĐỔI TRẢ DỄ DÀNG
-                    <span style="color: #eec315; font-size: 13px"
+                    <span class="fs-13" style="color: #eec315;"
                       >TRONG 30 NGÀY</span
                     >
                   </p>
@@ -182,12 +172,12 @@
             </div>
           </div>
 
-          <div class="item-header">
+          <div class="swiper-slide">
             <div class="header-slide">
               <div class="flex div-logo">
                 <div class="flex" style="margin: 7px 0 2px 0">
                   <div
-                    class="flex item-center"
+                    class="flex item-center wrapper-logo"
                     style="margin-left: 60px; margin-right: 15px"
                   >
                     <img
@@ -199,14 +189,10 @@
                     <span style="font-size: 9px; margin-right: 15px"
                       >FPT Retail</span
                     >
-                    <span
-                      class="fw-500"
-                      style="font-size: 12px; display: contents"
+                    <span class="fw-500 fs-12" style="margin-bottom: -1px; margin-right: 3px;"
                       >NHÀ THUỐC</span
                     >
-                    <span
-                      class="fw-600"
-                      style="font-size: 14px; display: contents"
+                    <span class="fw-600 fs-14"
                       >LONG CHÂU</span
                     >
                   </div>
@@ -226,13 +212,13 @@
                 </div>
               </div>
               <div class="flex container-content-header" style="margin: 0 10px">
-                <img
+                <img class="img-icon"
                   style="width: 105px; height: 86px"
                   src="https://gmail-com-vn.github.io/web-landing-page/assets/image/a12.png"
                   alt=""
                 />
                 <div
-                  class="fw-600"
+                  class="fw-600 content-banner"
                   style="
                     background-color: #fdda00;
                     text-align: center;
@@ -241,7 +227,7 @@
                     border-bottom-right-radius: 10px;
                   "
                 >
-                  <p
+                  <p class="text-banner"
                     style="
                       color: #0656a5;
                       font-size: 19px;
@@ -251,7 +237,7 @@
                   >
                     GIÁ TỐT
                   </p>
-                  <p
+                  <p class="text-banner"
                     style="
                       color: #0656a5;
                       font-size: 19px;
@@ -261,17 +247,16 @@
                   >
                     LUÔN ĐỦ THUỐC
                   </p>
-                  <p
+                  <p class="fs-10"
                     style="
                       background-color: #eb1d23;
-                      font-size: 10px;
                       padding: 4px 13px;
                       border-radius: 15px;
                       letter-spacing: 1px;
                     "
                   >
                     ĐỔI TRẢ DỄ DÀNG
-                    <span style="color: #eec315; font-size: 13px"
+                    <span class="fs-13" style="color: #eec315;"
                       >TRONG 30 NGÀY</span
                     >
                   </p>
@@ -280,12 +265,12 @@
             </div>
           </div>
 
-          <div class="item-header">
+          <div class="swiper-slide">
             <div class="header-slide">
               <div class="flex div-logo">
                 <div class="flex" style="margin: 7px 0 2px 0">
                   <div
-                    class="flex item-center"
+                    class="flex item-center wrapper-logo"
                     style="margin-left: 60px; margin-right: 15px"
                   >
                     <img
@@ -297,14 +282,10 @@
                     <span style="font-size: 9px; margin-right: 15px"
                       >FPT Retail</span
                     >
-                    <span
-                      class="fw-500"
-                      style="font-size: 12px; display: contents"
+                    <span class="fw-500 fs-12" style="margin-bottom: -1px; margin-right: 3px;"
                       >NHÀ THUỐC</span
                     >
-                    <span
-                      class="fw-600"
-                      style="font-size: 14px; display: contents"
+                    <span class="fw-600 fs-14"
                       >LONG CHÂU</span
                     >
                   </div>
@@ -324,13 +305,13 @@
                 </div>
               </div>
               <div class="flex container-content-header" style="margin: 0 10px">
-                <img
+                <img class="img-icon"
                   style="width: 105px; height: 86px"
                   src="https://gmail-com-vn.github.io/web-landing-page/assets/image/a12.png"
                   alt=""
                 />
                 <div
-                  class="fw-600"
+                  class="fw-600 content-banner"
                   style="
                     background-color: #fdda00;
                     text-align: center;
@@ -339,7 +320,7 @@
                     border-bottom-right-radius: 10px;
                   "
                 >
-                  <p
+                  <p class="text-banner"
                     style="
                       color: #0656a5;
                       font-size: 19px;
@@ -349,7 +330,7 @@
                   >
                     ĐỦ THUỐC
                   </p>
-                  <p
+                  <p class="text-banner"
                     style="
                       color: #0656a5;
                       font-size: 19px;
@@ -359,10 +340,9 @@
                   >
                     THEO ĐƠN BỆNH VIỆN
                   </p>
-                  <p
+                  <p class="fs-12"
                     style="
                       background-color: #eb1d23;
-                      font-size: 12px;
                       padding: 5px 7px;
                       border-radius: 15px;
                     "
@@ -374,12 +354,12 @@
             </div>
           </div>
 
-          <div class="item-header">
+          <div class="swiper-slide">
             <div class="header-slide">
               <div class="flex div-logo">
                 <div class="flex" style="margin: 7px 0 2px 0">
                   <div
-                    class="flex item-center"
+                    class="flex item-center wrapper-logo"
                     style="margin-left: 60px; margin-right: 15px"
                   >
                     <img
@@ -391,14 +371,10 @@
                     <span style="font-size: 9px; margin-right: 15px"
                       >FPT Retail</span
                     >
-                    <span
-                      class="fw-500"
-                      style="font-size: 12px; display: contents"
+                    <span class="fw-500 fs-12" style="display: contents"
                       >NHÀ THUỐC</span
                     >
-                    <span
-                      class="fw-600"
-                      style="font-size: 14px; display: contents"
+                    <span class="fw-600 fs-14" style="display: contents"
                       >LONG CHÂU</span
                     >
                   </div>
@@ -418,13 +394,13 @@
                 </div>
               </div>
               <div class="flex container-content-header" style="margin: 0 10px">
-                <img
+                <img class="img-icon"
                   style="width: 105px; height: 86px"
                   src="https://gmail-com-vn.github.io/web-landing-page/assets/image/a12.png"
                   alt=""
                 />
                 <div
-                  class="fw-600"
+                  class="fw-600 content-banner"
                   style="
                     background-color: #fdda00;
                     text-align: center;
@@ -433,7 +409,7 @@
                     border-bottom-right-radius: 10px;
                   "
                 >
-                  <p
+                  <p class="text-banner"
                     style="
                       color: #0656a5;
                       font-size: 19px;
@@ -443,7 +419,7 @@
                   >
                     ĐỦ THUỐC
                   </p>
-                  <p
+                  <p class="text-banner"
                     style="
                       color: #0656a5;
                       font-size: 19px;
@@ -453,10 +429,9 @@
                   >
                     THEO ĐƠN BỆNH VIỆN
                   </p>
-                  <p
+                  <p class="fs-10"
                     style="
                       background-color: #eb1d23;
-                      font-size: 10px;
                       padding: 5px 7px;
                       border-radius: 15px;
                     "
@@ -469,7 +444,7 @@
           </div>
         </div>
       </div>
-      <div class="container container-pay">
+      <div class="container container-pay m-auto">
         <div class="div-pay m-auto flex" style="width: 350px">
           <div>
             <button
@@ -520,10 +495,10 @@
           </div>
         </div>
       </div>
-      <div class="container" style="top: 220px">
-        <div id="slide">
-          <div class="item">
-            <div class="content">
+      <div class="container swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="content" style="height: 630px">
               <div class="header-page text-white">
                 <div class="flex item-center" style="width: 100%">
                   <div class="m-auto flex item-center" style="padding: 8px 0">
@@ -552,7 +527,7 @@
                 </div>
                 <div>
                   <div style="padding-top: 10px; text-align: center">
-                    <p class="fw-600" style="font-size: 21px">
+                    <p class="fw-600 fs-21">
                       VIÊN THUỐC BỔ GAN, BỔ NÃO, BỔ MẮT
                     </p>
                     <p class="fw-600" style="font-size: 23px; margin-top: 5px">
@@ -588,13 +563,13 @@
                     />
                   </div>
                   <span class="fs-30 fw-500">1800 6928</span>
-                  <span style="margin: 13px 0 0 5px">(Miễn phí)</span>
+                  <span class="text-phone" style="margin: 13px 0 0 5px">(Miễn phí)</span>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="item">
+          <div class="swiper-slide">
             <div class="content">
               <div class="header-page text-white">
                 <div class="flex item-center" style="width: 100%">
@@ -684,13 +659,13 @@
                     />
                   </div>
                   <span class="fs-30 fw-500">1800 6928</span>
-                  <span style="margin: 13px 0 0 5px">(Miễn phí)</span>
+                  <span class="text-phone" style="margin: 13px 0 0 5px">(Miễn phí)</span>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="item">
+          <div class="swiper-slide">
             <div class="content">
               <div class="header-page text-white" style="height: 144px">
                 <div class="flex item-center" style="width: 100%">
@@ -769,7 +744,7 @@
             </div>
           </div>
 
-          <div class="item">
+          <div class="swiper-slide">
             <div class="content">
               <div class="header-page text-white">
                 <div class="flex item-center" style="width: 100%">
@@ -835,12 +810,12 @@
                     />
                   </div>
                   <span class="fs-30 fw-500">1800 6928</span>
-                  <span style="margin: 13px 0 0 5px">(Miễn phí)</span>
+                  <span class="text-phone" style="margin: 13px 0 0 5px">(Miễn phí)</span>
                 </div>
               </div>
             </div>
           </div>
-          <div class="item">
+          <div class="swiper-slide">
             <div class="content">
               <div class="header-page text-white">
                 <div class="flex item-center" style="width: 100%">
@@ -905,7 +880,7 @@
                   <span style="padding-top: 7px; font-size: 13px"
                     >GIẢM THÊM</span
                   >
-                  <span style="font-size: 21px; color: #fdda00; margin: 0 5px"
+                  <span class="fs-21" style="color: #fdda00; margin: 0 5px"
                     >30.000Đ</span
                   >
                   <div style="position: relative">
@@ -947,13 +922,13 @@
                     />
                   </div>
                   <span class="fs-30 fw-500">1800 6928</span>
-                  <span style="margin: 13px 0 0 5px">(Miễn phí)</span>
+                  <span class="text-phone" style="margin: 13px 0 0 5px">(Miễn phí)</span>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="item">
+          <div class="swiper-slide">
             <div class="content">
               <div class="header-page text-white">
                 <div class="flex item-center" style="width: 100%">
@@ -1040,13 +1015,13 @@
                     />
                   </div>
                   <span class="fs-30 fw-500">1800 6928</span>
-                  <span style="margin: 13px 0 0 5px">(Miễn phí)</span>
+                  <span class="text-phone" style="margin: 13px 0 0 5px">(Miễn phí)</span>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="item" style="">
+          <div class="swiper-slide" style="">
             <div class="content" style="width: 420px; height: 631px">
               <img
                 class="img-slide"
@@ -1058,7 +1033,7 @@
             </div>
           </div>
 
-          <div class="item" style="">
+          <div class="swiper-slide" style="">
             <div class="content" style="width: 420px; height: 631px">
               <img
                 class="img-slide"
@@ -1070,7 +1045,7 @@
             </div>
           </div>
 
-          <div class="item" style="">
+          <div class="swiper-slide" style="">
             <div class="content" style="width: 420px; height: 631px">
               <img
                 class="img-slide"
@@ -1082,7 +1057,7 @@
             </div>
           </div>
 
-          <div class="item" style="">
+          <div class="swiper-slide" style="">
             <div class="content" style="width: 420px; height: 631px">
               <img
                 class="img-slide"
@@ -1094,7 +1069,7 @@
             </div>
           </div>
 
-          <div class="item" style="">
+          <div class="swiper-slide" style="">
             <div class="content" style="width: 420px; height: 631px">
               <img
                 class="img-slide"
@@ -1106,7 +1081,7 @@
             </div>
           </div>
 
-          <div class="item" style="">
+          <div class="swiper-slide" style="">
             <div class="content" style="width: 420px; height: 631px">
               <img
                 class="img-slide"
@@ -1118,7 +1093,7 @@
             </div>
           </div>
 
-          <div class="item" style="">
+          <div class="swiper-slide" style="">
             <div class="content" style="width: 420px; height: 631px">
               <img
                 class="img-slide"
@@ -1130,33 +1105,58 @@
             </div>
           </div>
         </div>
-        <div style="margin-top: 12px">
-          <button
-            class="text-white"
-            style="
-              border-radius: 50px;
-              background-color: #0656a5;
-              width: 100%;
-              border: none;
-              height: 36px;
-              font-size: 19px;
-            "
-          >
-            Nhận mã ưu đãi ngay
-          </button>
-        </div>
+      </div>
+      <div class="container m-auto" style="margin-top: 12px">
+        <button
+          class="text-white"
+          style="
+            border-radius: 50px;
+            background-color: #0656a5;
+            width: 100%;
+            border: none;
+            height: 36px;
+            font-size: 19px;
+          "
+        >
+          Nhận mã ưu đãi ngay
+        </button>
       </div>
     </div>
 
     <script>
-      function showSlides() {
-        let lists = document.querySelectorAll(".item");
-        document.getElementById("slide").appendChild(lists[0]);
-        let listsHeader = document.querySelectorAll(".item-header");
-        document.getElementById("slide-header").appendChild(listsHeader[0]);
-        setTimeout(showSlides, 3000);
-      }
-      showSlides();
+      $(document).ready(function () {
+        var isMobile = window.matchMedia(
+          "only screen and (max-width: 768px)"
+        ).matches; // Kiểm tra nếu là thiết bị mobile
+
+        var slidesToShow = isMobile ? 1 : 2;
+        // Assign some jquery elements we'll need
+        var $swiper = $(".swiper-container");
+        var $bottomSlide = null; // Slide whose content gets 'extracted' and placed
+        // into a fixed position for animation purposes
+        var $bottomSlideContent = null; // Slide content that gets passed between the
+        // panning slide stack and the position 'behind'
+        // the stack, needed for correct animation style
+
+        var mySwiper = new Swiper(".swiper-container", {
+          spaceBetween: 1,
+          slidesPerView: slidesToShow,
+          centeredSlides: true,
+          roundLengths: true,
+          loop: true,
+          loopAdditionalSlides: 30,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          // autoplay: {
+          //   delay: 3000, // Thời gian chờ giữa các slide (ms)
+          //   disableOnInteraction: false, // Tự động chuyển slide sau khi người dùng tương tác (true) hoặc không (false)
+          // },
+        });
+        console.log(mySwiper);
+        console.log(document);
+      });
     </script>
   </body>
 </html>
